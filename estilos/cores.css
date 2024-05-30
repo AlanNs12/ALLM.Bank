@@ -1,0 +1,11 @@
+.btn-outline-success {
+    color: #000000;
+    background-color: transparent;
+    background-image: none;
+    border-color: #28a745;
+  }
+  .btn-outline-success:hover {
+    color: #fff;
+    background-color: #000dff;
+    border-color: #28a745;
+  }
