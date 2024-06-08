@@ -1,17 +1,15 @@
-:root {
-    --color-background: #0c0b0f;
-}
-@media screen {
-    
-}
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
+}
+html{
+  scroll-behavior: smooth;
 }
 body{
     margin: 0;
-    background: var(--color-background);
+    background: #0c0b0f;
     font-family: "Euclid Circular A", "Poppins";
     color: #f0e5ff;
 }
@@ -21,47 +19,73 @@ main {
     overflow-y: auto;
     perspective: 2px;
 }
+.navbar-collapse{
+  transition: 0.2s;
+}
+.navbar-colapse:hover{
+  transition: 0.2s;
+}
+.icone-navbar{
+  margin: 0 10px;
+  filter: drop-shadow(0.5px 0.5px 4px rgb(255, 255, 255));
+  transition: 0.5s;
+}
+.icone-navbar:hover{
+  transition: 1s;
+  transform: rotate(1turn);
+  margin: 0 10px;
+}
 section {
     transform-style: preserve-3d;
     position: relative;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
+    box-shadow: rgba(0, 0, 0, 0.575) 2px 8px 10px;
 }
-  
-  section:last-child {
+.botao-criar-conta{
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  border: #949494;
+  background: #965fdb;
+  box-shadow: 2px 2px 8px #000000c0;
+  color: #fff;
+  transition: 0.5s;
+}
+.botao-criar-conta:hover{
+  transition: 0.5s;
+  transform: scale(1.1);
+  box-shadow: 2px 2px 15px #494949c0;
+}
+section:last-child {
     height: 60vh;
-}
-  
-  .no-parallax {
-    background-color: var(--color-background);
+} 
+.no-parallax {
+    background-color: #0c0b0f;
     z-index: 999;
-    padding: 0 80px;
+    padding: 0 150px;
     gap: 20px;
     justify-content: space-between;
 }
-  
-  .no-parallax p {
+.no-parallax p {
     opacity: 0.5;
     margin: 0;
 }
-  
-  .no-parallax img {
+.no-parallax img {
     width: 220px;
+    filter: drop-shadow(1px 1px 5px rgb(0, 0, 0));
 }
-  
-  .parallax {
-    height: 80vh;
+.parallax {
+    height: 60vh;
 }
-  
   section h1 {
     text-align: center;
     font-size: 60px;
-}
-  
-  .parallax::after {
+} 
+.parallax::after {
     content: " ";
     position: absolute;
     top: 0;
@@ -72,30 +96,24 @@ section {
     background-size: 100%;
     z-index: -1;
 }
-  
-  .bg::after {
+.bg::after {
     background: url("../imagens/bg-roxo.png");
     background-size: cover;
-}
-  
-  h2 {
+} 
+h2 {
     font-weight: 400;
 }
-  
   footer .footer-inner {
     display: flex;
     margin-right: -100px;
 }
-  
   footer ul {
     list-style: none;
     padding: 0 5px 0 0;
 }
-  
   footer ul:last-of-type {
     padding: 0;
 }
-  
   footer ul li {
     font-weight: 400;
     opacity: 0.6;

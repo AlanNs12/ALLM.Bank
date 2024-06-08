@@ -1,0 +1,46 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+.icone-navbar{
+    margin: 0 10px;
+    filter: drop-shadow(0.5px 0.5px 4px rgb(255, 255, 255));
+    transition: 0.5s;
+  }
+  .icone-navbar:hover{
+    transition: 1s;
+    transform: rotate(1turn);
+    margin: 0 10px;
+  }
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    color: #fff;
+}
+.container {
+    max-width: 960px;
+  }
+.teste{
+    max-width: 960px;
+}
+.botao-cad{
+    width: 20vw;
+}
+main{
+    width: 60vw;
+    margin: auto;
+}
+.formulario{
+    width: 100%;
+    margin: auto;
+}
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+}
