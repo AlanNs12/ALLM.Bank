@@ -30,6 +30,7 @@ a:hover{
 }
 .botao-cad{
     width: 20vw;
+    min-width: 300px;
 }
 main{
     width: 60vw;
