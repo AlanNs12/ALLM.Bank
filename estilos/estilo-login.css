@@ -10,38 +10,35 @@
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
-  }
+}
   .icone-navbar{
     margin: 0 10px;
     filter: drop-shadow(0.5px 0.5px 4px rgb(255, 255, 255));
     transition: 0.5s;
-  }
+}
   .icone-navbar:hover{
     transition: 1s;
     transform: rotate(1turn);
     margin: 0 10px;
-  }
-  .bg-back{
-    background-color: #12171e;
-  }
-  a{
+}
+a{
     color: #fff;
     text-decoration: none;
-  }
-  a:hover{
+}
+a:hover{
     text-decoration: none;
     color: #fff;
-  }
+}
   
-  .botao-login {
+.botao-login {
     width: 50%;
     padding: 2rem;
     background-color: blue;
     color: #fff;
-  }
+}
 
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
     .bd-placeholder-img-lg {
       font-size: 3.5rem;
-    }
   }
+}
