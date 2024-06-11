@@ -137,7 +137,9 @@
 .sidebar.active ul li .tooltip {
     display: none;
 }
-
+.tamanho-width{
+    width: 50%;
+}
 
   @media (min-width: 768px) {
     .bd-placeholder-img-lg {

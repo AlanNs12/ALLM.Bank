@@ -135,6 +135,7 @@
     position: relative;
     background-color: #eee;
     min-height: 100vh;
+    width: 60%;
     top: 0;
     left: 80px;
     transition: all 0.5s ease;
