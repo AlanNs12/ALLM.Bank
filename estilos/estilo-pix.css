@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+button#pix-button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+.formulario-pix{
+    width: 30%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}

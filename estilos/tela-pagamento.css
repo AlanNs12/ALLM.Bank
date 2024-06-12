@@ -1,0 +1,15 @@
+.form-pagamento{
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+.form-linha {
+    margin: auto;
+}
+.col-md-8{
+    margin: auto;
+}
+.botao-pagamento {
+    margin: 20px;
+}
