@@ -20,7 +20,7 @@
         <i class="bx bx-menu" id="btn"></i>
     </div>
     <div class="user">
-        <img src="imagens/user-image.jpg" alt="foto-user" class="user-img">
+        <img src="imagens/user-image.png" alt="foto-user" class="user-img">
         <div>
             <p class="bold">Alan N.</p>
             <p>Conta 1235-2</p>
@@ -70,7 +70,7 @@
             <span class="tooltip">Investimentos</span>
         </li>
         <li>
-            <a href="login.html">
+            <a href="index.html">
                 <i class="bx bx-log-out"></i>
                 <span class="nav-item">Sair</span>
             </a>
@@ -81,7 +81,25 @@
 <div class="main-content">
     <div class="container">
         <header>
-            <h1>Pagamento PIX</h1>
+            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                <h1 class="h2">Área Pix</h1>
+                <div class="input-group mb-3 col-md-4">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">Saldo</span>
+                  </div>
+                  <input type="text" class="form-control" placeholder="120.484,54" aria-label="Quantia" disabled>
+                  <div class="input-group-append">
+                    <span class="input-group-text">R$</span>
+                  </div>
+                </div>
+                <div class="btn-toolbar mb-2 mb-md-0">
+                    <div class="btn-group me-2">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Ajuda</button>
+                    </div>
+                    
+                  </div>
+                
+              </div>
         </header>
     
         <div class="formulario-pix">
@@ -93,22 +111,19 @@
                   <label for="=Valor do pix" class="form-label">Valor do pix</label>
                   <input type="number" min="0" step="any" name="monto" id="monto" class="form-control" id="Valor do pix" placeholder="" value="" required>
                   <div class="col-md-6">
-                    <label for="TIPOS DE CHAVE" class="form-label">TIPOS DE CHAVE</label>
-                    <select class="form-select" id="TIPOS DE CHAVE" required>
+                    <label for="Tipo de chave" class="form-label">Tipos de chave</label>
+                    <select class="form-control form-control-sm" id="TIPOS DE CHAVE" required>
                       <option value="">Escolha</option>
                       <option>CPF/CNPJ</option>
-                      <option>CELULAR</option>
-                      <option>EMAIL</option>
-                      <option>CHAVE ALEATÓRIA</option>
+                      <option>Celular</option>
+                      <option>Email</option>
+                      <option>Chave Aleatória</option>
                     </select>
                     </div>
             
                 <button id="pix-button">Pagar com PIX</button>
         </div>
         
-      <footer>
-            <p>© 2024 ALLM BANK</p>
-        </footer>
     </div>
 </div>
 

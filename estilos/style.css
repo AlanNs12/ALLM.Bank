@@ -50,7 +50,7 @@ section {
   padding: 10px;
   border-radius: 8px;
   border: #949494;
-  background: #965fdb;
+  background: #2c2a2e;
   box-shadow: 2px 2px 8px #000000c0;
   color: #fff;
   transition: 0.5s;
@@ -64,7 +64,7 @@ section:last-child {
     height: 60vh;
 } 
 .no-parallax {
-    background-color: #0c0b0f;
+    background-color: #0c0b0e;
     z-index: 999;
     padding: 0 150px;
     gap: 20px;
@@ -97,7 +97,7 @@ section:last-child {
     z-index: -1;
 }
 .bg::after {
-    background: url("../imagens/bg-roxo.png");
+    background: url("../imagens/bg-1.png");
     background-size: cover;
 } 
 h2 {
@@ -118,4 +118,7 @@ h2 {
     font-weight: 400;
     opacity: 0.6;
     margin-bottom: 10px;
+}
+.texto-inicio{
+  max-width: 600px;
 }

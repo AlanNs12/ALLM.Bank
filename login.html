@@ -11,40 +11,40 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sign-in/">
     <link rel="stylesheet" href="estilos/estilo-login.css">
   </head>
-  <body class="text-center bg-dark text-light">
+  <body class="text-center text-light">
     
 <main class="form-signin">
-  <form>
-    <a href="index.html"><img class="mb-4 icone-navbar" src="imagens/icone-pqn.png" alt="" width="72" height="57"></a>
-    <a href="index.html">
-      <h1 class="h3 mb-3 fw-normal">Entrar</h1>
-    </a>
-
-    <div class="form-floating">
-        <label for="floatingInput" class="float-left">CPF:</label>
-        <input type="email" class="form-control" id="floatingInput" placeholder="123.456.678.90">
+  <div class="formulario-login">
+    <form>
+      <a href="index.html"><img class="mb-4 icone-navbar" src="imagens/icone-pqn.png" alt="" width="72" height="57"></a>
+      <a href="index.html">
+        <h1 class="h3 mb-3 fw-normal">Entrar</h1>
+      </a>
+      <div class="form-floating">
+          <label for="floatingInput" class="float-left">CPF:</label>
+          <input type="text" data-ls-module="charCounter" maxlength="11" class="form-control" id="floatingInput" placeholder="123.456.678.90" required>
+    
+      </div>
+      <div class="form-floating">
+          <label for="floatingSenha" class="float-left">Senha</label>
+          <input type="password" class="form-control" id="floatingSenha" placeholder="Senha" required>
+    
+      </div>
       
-    </div>
-    <div class="form-floating">
-        <label for="floatingSenha" class="float-left">Senha</label>
-        <input type="Senha" class="form-control" id="floatingSenha" placeholder="Senha">
-     
-    </div>
-
-    <div class="checkbox mb-3">
-      <label class="float-left"> 
-        <input type="checkbox" value="Salvar"> Salvar senha
-      </label>
-    </div>
-    <a href="tela-inicial.html">
-      <div><button class="w-100 btn btn-lg btn-primary" href="tela-inicial.html" type="button"><a href="tela-inicial.html">Acessar</a></button></div>
-    </a>
-    <!--<a href="tela-inicial.html" class="botao-login"><span>Teste</span></a>-->
-    <p class="mt-5 mb-3 text-muted">&copy; ALLM BANK</p>
-  </form>
+      <div class="checkbox mb-3">
+        <input type="checkbox" value="Salvar">
+        <label>
+           Salvar senha
+        </label>
+      </div>
+      <a class="btn btn-success float-center" href="tela-inicial.html" role="button">Entrar</a>
+    </form>
+    
+  </div>
+  
 </main>
 
-
+<footer><p class="mt-5 mb-3 text-muted">&copy; ALLM BANK</p></footer>
     
   </body>
 </html>
