@@ -1,0 +1,7 @@
+.card{
+    margin: 20px;
+}
+.cartao-img{
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.445) 4px 4px 4px;
+}
